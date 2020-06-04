@@ -1,0 +1,20 @@
+1. 建本地 Repository: madir <> ; git init
+2. 加一个file: touch <> ; git status --> 显示git中的文档
+// The staging environment: 要把那些放入commit
+// the commit: 自从上次commit到现在改变了什么
+3. git add <filename> 一个file加入staging enviroment
+4. git commit -m "message" 把文件加入完了staging enviroment后，打包加入commit
+5. 建立新branch 假如想在project里搞一个新feature，可以建立一个新branch。
+   //merge: Join two or more development histories together
+   -->git checkout -b <my branch name> 自动建立一个新分支并移动过去
+   -->git branch 确认分支
+6. 在GitHub上建立新 Repository
+	+New Repository
+	fill out the Info
+	push an existing repository from the command line
+7. 在GitHub上推送一个 branch
+	 git push origin <yourbranchname>
+8. 建立一个Pull Request
+9. 合并PR
+10. 与本地合并 git pull origin master
+
